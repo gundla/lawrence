@@ -4,3 +4,8 @@ bower_components/
 
 build/
 dist/
+.bowerrc
+.editorconfig
+.gitattributes
+.sass-cache
+.tmp

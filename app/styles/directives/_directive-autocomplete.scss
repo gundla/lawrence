@@ -1,0 +1,39 @@
+$width: 400px;
+.my-components-autocomplete {
+	width: $width;
+	margin: 0 auto;
+	position: relative;
+	font-family: Arial;
+	.search-input-container {
+		border: solid 1px #ccc;
+	}
+	input {
+		border: none;
+		outline: none;
+		padding: 5px 10px;
+		font-size: 14px;
+		color: #555;
+	}
+	.search-results-container {
+		position: absolute;
+		width: 100%;
+	}
+	.search-results {
+		max-height: 200px;
+		overflow-y: auto;
+		border: solid 1px #ccc;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			padding: 5px 10px;
+			cursor: pointer;
+			&:hover, &.hover {
+				background: #eee;
+			}
+		}
+		.matched-text {
+			font-weight: bold;
+		}
+	}
+}

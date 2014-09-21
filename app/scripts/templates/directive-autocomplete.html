@@ -1,0 +1,17 @@
+<div class="my-components-autocomplete">
+	<div class="search-input-container">
+		<input type="text" ng-model="searchInput" ng-keydown="searchKeyDown($event)" ng-blur="searchBlur($event)" ng-change="searchChange(searchInput)" autofocus placeholder="Enter a search term">
+	</div>
+	<div class="search-results-container" ng-show="showResultsContainer">
+		<ul class="search-results" ng-show="results">
+			<li ng-repeat="result in results" ng-click="selectResult(result)" ng-class="{'hover': $index == navByKey}">
+				<span ng-bind-html="result.display"></span>
+			</li>
+		</ul>
+		<ul class="search-results none" ng-show="results.length <= 0">
+			<li >
+				<span>No results found</span>
+			</li>
+		</ul>
+	</div>
+</div>
