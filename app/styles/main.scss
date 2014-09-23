@@ -1,2 +1,18 @@
 @import "compass";
 @import "directives/directive-autocomplete";
+@import "directives/directive-multivalue-autocomplete";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+h2 {
+	font-size: 20px;
+	color: #666;
+	margin: 10px 0;
+}
+#myAutocomplete, #myMultivalueAutocomplete {
+	margin: 20px auto 120px;
+	width: 400px;
+}

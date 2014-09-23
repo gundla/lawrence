@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'my.directive.autocomplete'
+    'my.directive.autocomplete',
+    'my.directive.multivalue.autocomplete'
   ])
   .config(function ($routeProvider) {
     $routeProvider

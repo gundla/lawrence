@@ -1,0 +1,930 @@
+[
+    {
+        "parentId": null,
+        "name": "Arts and Entertainment",
+        "children": [
+            {
+                "parentId": 20022219,
+                "name": "Books and Literature",
+                "children": [],
+                "id": 20022143
+            },
+            {
+                "parentId": 20022219,
+                "name": "Television",
+                "children": [],
+                "id": 20022150
+            },
+            {
+                "parentId": 20022219,
+                "name": "Movies",
+                "children": [],
+                "id": 20022148
+            },
+            {
+                "parentId": 20022219,
+                "name": "Music",
+                "children": [],
+                "id": 20022149
+            },
+            {
+                "parentId": 20022219,
+                "name": "Games (or Video Games)",
+                "children": [],
+                "id": 20022175
+            }
+        ],
+        "id": 20022219
+    },
+    {
+        "parentId": null,
+        "name": "Automotive",
+        "children": [
+            {
+                "parentId": 20022221,
+                "name": "Coupe",
+                "children": [],
+                "id": 20023087
+            },
+            {
+                "parentId": 20022221,
+                "name": "Hatchback",
+                "children": [],
+                "id": 20023088
+            },
+            {
+                "parentId": 20022221,
+                "name": "Used Autos",
+                "children": [],
+                "id": 20023043
+            },
+            {
+                "parentId": 20022221,
+                "name": "Trucks and Accessories",
+                "children": [],
+                "id": 20023042
+            },
+            {
+                "parentId": 20022221,
+                "name": "Electric and Hybrid",
+                "children": [],
+                "id": 20023016
+            },
+            {
+                "parentId": 20022221,
+                "name": "Convertible",
+                "children": [],
+                "id": 20023008
+            },
+            {
+                "parentId": 20022221,
+                "name": "Auto Parts",
+                "children": [],
+                "id": 20022151
+            },
+            {
+                "parentId": 20022221,
+                "name": "Luxury",
+                "children": [],
+                "id": 20022155
+            },
+            {
+                "parentId": 20022221,
+                "name": "MiniVan",
+                "children": [],
+                "id": 20022156
+            },
+            {
+                "parentId": 20022221,
+                "name": "Motorcycles",
+                "children": [],
+                "id": 20022157
+            },
+            {
+                "parentId": 20022221,
+                "name": "Wagon",
+                "children": [],
+                "id": 20022161
+            },
+            {
+                "parentId": 20022221,
+                "name": "Sedan",
+                "children": [],
+                "id": 20022160
+            },
+            {
+                "parentId": 20022221,
+                "name": "SUV",
+                "children": [],
+                "id": 20023220
+            }
+        ],
+        "id": 20022221
+    },
+    {
+        "parentId": null,
+        "name": "Business",
+        "children": [
+            {
+                "parentId": 20022222,
+                "name": "Transportation and Logistics",
+                "children": [],
+                "id": 20023104
+            },
+            {
+                "parentId": 20022222,
+                "name": "Business Services",
+                "children": [],
+                "id": 20023092
+            },
+            {
+                "parentId": 20022222,
+                "name": "Industrial",
+                "children": [],
+                "id": 20023093
+            },
+            {
+                "parentId": 20022222,
+                "name": "Human Resources",
+                "children": [],
+                "id": 20023021
+            },
+            {
+                "parentId": 20022222,
+                "name": "Business Finance",
+                "children": [],
+                "id": 20023019
+            },
+            {
+                "parentId": 20022222,
+                "name": "Business Computing",
+                "children": [],
+                "id": 20022162
+            }
+        ],
+        "id": 20022222
+    },
+    {
+        "parentId": null,
+        "name": "Education",
+        "children": [
+            {
+                "parentId": 20022223,
+                "name": "K to 12 Education",
+                "children": [],
+                "id": 20023074
+            },
+            {
+                "parentId": 20022223,
+                "name": "Language Learning",
+                "children": [],
+                "id": 20023026
+            },
+            {
+                "parentId": 20022223,
+                "name": "Continuing and Adult Education",
+                "children": [],
+                "id": 20022163
+            },
+            {
+                "parentId": 20022223,
+                "name": "College and University",
+                "children": [],
+                "id": 20022164
+            },
+            {
+                "parentId": 20022223,
+                "name": "Career Training",
+                "children": [],
+                "id": 20023199
+            }
+        ],
+        "id": 20022223
+    },
+    {
+        "parentId": null,
+        "name": "Family and Parenting",
+        "children": [
+            {
+                "parentId": 20022224,
+                "name": "Parenting School-Age Kids",
+                "children": [],
+                "id": 20023027
+            },
+            {
+                "parentId": 20022224,
+                "name": "Babies and Toddlers",
+                "children": [],
+                "id": 20022165
+            },
+            {
+                "parentId": 20022224,
+                "name": "Toys",
+                "children": [],
+                "id": 20023204
+            }
+        ],
+        "id": 20022224
+    },
+    {
+        "parentId": null,
+        "name": "Food and Drink",
+        "children": [
+            {
+                "parentId": 20022225,
+                "name": "Dining Out",
+                "children": [],
+                "id": 20023109
+            },
+            {
+                "parentId": 20022225,
+                "name": "Cooking and Recipes",
+                "children": [],
+                "id": 20023108
+            },
+            {
+                "parentId": 20022225,
+                "name": "Dining Out - Fast Food",
+                "children": [],
+                "id": 20023118
+            },
+            {
+                "parentId": 20022225,
+                "name": "Coffee and Tea",
+                "children": [],
+                "id": 20023113
+            },
+            {
+                "parentId": 20022225,
+                "name": "Desserts and Baking",
+                "children": [],
+                "id": 20023028
+            },
+            {
+                "parentId": 20022225,
+                "name": "Health and Low-Fat Cooking",
+                "children": [],
+                "id": 20022166
+            }
+        ],
+        "id": 20022225
+    },
+    {
+        "parentId": null,
+        "name": "Health and Fitness",
+        "children": [
+            {
+                "parentId": 20022226,
+                "name": "Vision",
+                "children": [],
+                "id": 20023117
+            },
+            {
+                "parentId": 20022226,
+                "name": "Dental Care",
+                "children": [],
+                "id": 20023114
+            },
+            {
+                "parentId": 20022226,
+                "name": "Chronic Pain",
+                "children": [],
+                "id": 20023121
+            },
+            {
+                "parentId": 20022226,
+                "name": "Men's Health",
+                "children": [],
+                "id": 20023034
+            },
+            {
+                "parentId": 20022226,
+                "name": "Exercise",
+                "children": [],
+                "id": 20022167
+            },
+            {
+                "parentId": 20022226,
+                "name": "Women's Health",
+                "children": [],
+                "id": 20022170
+            },
+            {
+                "parentId": 20022226,
+                "name": "Weight Loss",
+                "children": [],
+                "id": 20022169
+            }
+        ],
+        "id": 20022226
+    },
+    {
+        "parentId": null,
+        "name": "Hobbies and Interests",
+        "children": [
+            {
+                "parentId": 20022227,
+                "name": "Arts and Crafts",
+                "children": [],
+                "id": 20023138
+            }
+        ],
+        "id": 20022227
+    },
+    {
+        "parentId": null,
+        "name": "Home and Garden",
+        "children": [
+            {
+                "parentId": 20022228,
+                "name": "Cleaning",
+                "children": [],
+                "id": 20023141
+            },
+            {
+                "parentId": 20022228,
+                "name": "Home Repair",
+                "children": [],
+                "id": 20023143
+            },
+            {
+                "parentId": 20022228,
+                "name": "Gardening and Landscaping",
+                "children": [],
+                "id": 20023122
+            },
+            {
+                "parentId": 20022228,
+                "name": "Appliances",
+                "children": [],
+                "id": 20023120
+            },
+            {
+                "parentId": 20022228,
+                "name": "Gifts",
+                "children": [],
+                "id": 20023062
+            },
+            {
+                "parentId": 20022228,
+                "name": "Home Theater",
+                "children": [],
+                "id": 20022176
+            },
+            {
+                "parentId": 20022228,
+                "name": "Interior Decorating",
+                "children": [],
+                "id": 20022177
+            },
+            {
+                "parentId": 20022228,
+                "name": "Remodeling and Construction",
+                "children": [],
+                "id": 20022178
+            }
+        ],
+        "id": 20022228
+    },
+    {
+        "parentId": null,
+        "name": "Law, Gov't and Politics",
+        "children": [
+            {
+                "parentId": 20022229,
+                "name": "Politics and Commentary",
+                "children": [],
+                "id": 20023053
+            },
+            {
+                "parentId": 20022229,
+                "name": "Legal Issues",
+                "children": [],
+                "id": 20022180
+            }
+        ],
+        "id": 20022229
+    },
+    {
+        "parentId": null,
+        "name": "News",
+        "children": [
+            {
+                "parentId": 20022230,
+                "name": "Financial News",
+                "children": [],
+                "id": 20023223
+            }
+        ],
+        "id": 20022230
+    },
+    {
+        "parentId": null,
+        "name": "Personal Finance",
+        "children": [
+            {
+                "parentId": 20022231,
+                "name": "Credit and Debt",
+                "children": [],
+                "id": 20022181
+            },
+            {
+                "parentId": 20022231,
+                "name": "Insurance",
+                "children": [],
+                "id": 20022182
+            },
+            {
+                "parentId": 20022231,
+                "name": "Investing",
+                "children": [],
+                "id": 20022183
+            },
+            {
+                "parentId": 20022231,
+                "name": "Mutual Funds",
+                "children": [],
+                "id": 20022184
+            },
+            {
+                "parentId": 20022231,
+                "name": "Retirement Planning",
+                "children": [],
+                "id": 20022185
+            },
+            {
+                "parentId": 20022231,
+                "name": "Tax Planning",
+                "children": [],
+                "id": 20022186
+            }
+        ],
+        "id": 20022231
+    },
+    {
+        "parentId": null,
+        "name": "Real Estate",
+        "children": [
+            {
+                "parentId": 20022232,
+                "name": "Rentals",
+                "children": [],
+                "id": 20023057
+            },
+            {
+                "parentId": 20022232,
+                "name": "Buying and Selling Homes",
+                "children": [],
+                "id": 20022187
+            }
+        ],
+        "id": 20022232
+    },
+    {
+        "parentId": null,
+        "name": "Shopping",
+        "children": [
+            {
+                "parentId": 20022233,
+                "name": "Contests and Freebies",
+                "children": [],
+                "id": 20023061
+            },
+            {
+                "parentId": 20022233,
+                "name": "Couponing",
+                "children": [],
+                "id": 20023198
+            }
+        ],
+        "id": 20022233
+    },
+    {
+        "parentId": null,
+        "name": "Society",
+        "children": [
+            {
+                "parentId": 20022234,
+                "name": "Senior Living",
+                "children": [],
+                "id": 20023063
+            },
+            {
+                "parentId": 20022234,
+                "name": "Dating",
+                "children": [],
+                "id": 20022188
+            },
+            {
+                "parentId": 20022234,
+                "name": "Teens",
+                "children": [],
+                "id": 20022190
+            },
+            {
+                "parentId": 20022234,
+                "name": "Weddings",
+                "children": [],
+                "id": 20022191
+            },
+            {
+                "parentId": 20022234,
+                "name": "Marriage",
+                "children": [],
+                "id": 20023171
+            }
+        ],
+        "id": 20022234
+    },
+    {
+        "parentId": null,
+        "name": "Sports",
+        "children": [
+            {
+                "parentId": 20022235,
+                "name": "Sailing",
+                "children": [],
+                "id": 20023137
+            },
+            {
+                "parentId": 20022235,
+                "name": "Ice Hockey",
+                "children": [],
+                "id": 20023136
+            },
+            {
+                "parentId": 20022235,
+                "name": "Water Sports",
+                "children": [],
+                "id": 20023139
+            },
+            {
+                "parentId": 20022235,
+                "name": "Hunting and Shooting",
+                "children": [],
+                "id": 20023134
+            },
+            {
+                "parentId": 20022235,
+                "name": "Olympics",
+                "children": [],
+                "id": 20023135
+            },
+            {
+                "parentId": 20022235,
+                "name": "Baseball",
+                "children": [],
+                "id": 20023132
+            },
+            {
+                "parentId": 20022235,
+                "name": "Fishing",
+                "children": [],
+                "id": 20023133
+            },
+            {
+                "parentId": 20022235,
+                "name": "Rugby",
+                "children": [],
+                "id": 20023066
+            },
+            {
+                "parentId": 20022235,
+                "name": "Boxing",
+                "children": [],
+                "id": 20023064
+            },
+            {
+                "parentId": 20022235,
+                "name": "Auto Racing",
+                "children": [],
+                "id": 20022193
+            },
+            {
+                "parentId": 20022235,
+                "name": "Golf",
+                "children": [],
+                "id": 20022197
+            },
+            {
+                "parentId": 20022235,
+                "name": "Football",
+                "children": [],
+                "id": 20022196
+            },
+            {
+                "parentId": 20022235,
+                "name": "Basketball",
+                "children": [],
+                "id": 20022198
+            },
+            {
+                "parentId": 20022235,
+                "name": "Fitness Sports",
+                "children": [],
+                "id": 20023225
+            },
+            {
+                "parentId": 20022235,
+                "name": "Action Sports",
+                "children": [],
+                "id": 20023224
+            },
+            {
+                "parentId": 20022235,
+                "name": "Outdoor Sports",
+                "children": [],
+                "id": 20023226
+            },
+            {
+                "parentId": 20022235,
+                "name": "World Soccer",
+                "children": [],
+                "id": 20023178
+            },
+            {
+                "parentId": 20022235,
+                "name": "Martial Arts",
+                "children": [],
+                "id": 20023175
+            }
+        ],
+        "id": 20022235
+    },
+    {
+        "parentId": null,
+        "name": "Style and Fashion",
+        "children": [
+            {
+                "parentId": 20022236,
+                "name": "Footwear",
+                "children": [],
+                "id": 20023142
+            },
+            {
+                "parentId": 20022236,
+                "name": "Clothing",
+                "children": [],
+                "id": 20022201
+            },
+            {
+                "parentId": 20022236,
+                "name": "Jewelry",
+                "children": [],
+                "id": 20022203
+            },
+            {
+                "parentId": 20022236,
+                "name": "Accessories",
+                "children": [],
+                "id": 20022145
+            }
+        ],
+        "id": 20022236
+    },
+    {
+        "parentId": null,
+        "name": "Technology and Computing",
+        "children": [
+            {
+                "parentId": 20022237,
+                "name": "Cameras and Camcorders",
+                "children": [],
+                "id": 20023144
+            },
+            {
+                "parentId": 20022237,
+                "name": "Portable Entertainment",
+                "children": [],
+                "id": 20023157
+            },
+            {
+                "parentId": 20022237,
+                "name": "PC Support",
+                "children": [],
+                "id": 20023155
+            },
+            {
+                "parentId": 20022237,
+                "name": "Internet Technology",
+                "children": [],
+                "id": 20022273
+            },
+            {
+                "parentId": 20022237,
+                "name": "Graphics Software",
+                "children": [],
+                "id": 20023067
+            },
+            {
+                "parentId": 20022237,
+                "name": "Digital Audio",
+                "children": [],
+                "id": 20023068
+            },
+            {
+                "parentId": 20022237,
+                "name": "Computer Networking",
+                "children": [],
+                "id": 20022207
+            },
+            {
+                "parentId": 20022237,
+                "name": "Cell Phones",
+                "children": [],
+                "id": 20022206
+            },
+            {
+                "parentId": 20022237,
+                "name": "Programming Languages",
+                "children": [],
+                "id": 20023228
+            },
+            {
+                "parentId": 20022237,
+                "name": "Social Media and Networking",
+                "children": [],
+                "id": 20023231
+            },
+            {
+                "parentId": 20022237,
+                "name": "Antivirus Software",
+                "children": [],
+                "id": 20023179
+            },
+            {
+                "parentId": 20022237,
+                "name": "Email",
+                "children": [],
+                "id": 20023182
+            },
+            {
+                "parentId": 20022237,
+                "name": "Computer Peripherals",
+                "children": [],
+                "id": 20022208
+            },
+            {
+                "parentId": 20022237,
+                "name": "Network Security",
+                "children": [],
+                "id": 20023184
+            }
+        ],
+        "id": 20022237
+    },
+    {
+        "parentId": null,
+        "name": "Travel",
+        "children": [
+            {
+                "parentId": 20022238,
+                "name": "Australia and New Zealand",
+                "children": [],
+                "id": 20023164
+            },
+            {
+                "parentId": 20022238,
+                "name": "Bus and Rail",
+                "children": [],
+                "id": 20023166
+            },
+            {
+                "parentId": 20022238,
+                "name": "Business Travel",
+                "children": [],
+                "id": 20023167
+            },
+            {
+                "parentId": 20022238,
+                "name": "Asia",
+                "children": [],
+                "id": 20023073
+            },
+            {
+                "parentId": 20022238,
+                "name": "Africa",
+                "children": [],
+                "id": 20023070
+            },
+            {
+                "parentId": 20022238,
+                "name": "Budget Travel",
+                "children": [],
+                "id": 20023071
+            },
+            {
+                "parentId": 20022238,
+                "name": "Europe",
+                "children": [],
+                "id": 20022214
+            },
+            {
+                "parentId": 20022238,
+                "name": "Air Travel",
+                "children": [],
+                "id": 20022212
+            },
+            {
+                "parentId": 20022238,
+                "name": "Mexico and Central America",
+                "children": [],
+                "id": 20023170
+            },
+            {
+                "parentId": 20022238,
+                "name": "Canada",
+                "children": [],
+                "id": 20023168
+            },
+            {
+                "parentId": 20022238,
+                "name": "Hotels",
+                "children": [],
+                "id": 20022216
+            },
+            {
+                "parentId": 20022238,
+                "name": "Family Travel",
+                "children": [],
+                "id": 20022217
+            },
+            {
+                "parentId": 20022238,
+                "name": "South America",
+                "children": [],
+                "id": 20023190
+            },
+            {
+                "parentId": 20022238,
+                "name": "Cruises",
+                "children": [],
+                "id": 20023189
+            },
+            {
+                "parentId": 20022238,
+                "name": "U.S. Travel",
+                "children": [],
+                "id": 20023188
+            }
+        ],
+        "id": 20022238
+    },
+    {
+        "parentId": null,
+        "name": "Beauty and Personal Care",
+        "children": [
+            {
+                "parentId": 20023100,
+                "name": "Hair Care",
+                "children": [],
+                "id": 20023090
+            },
+            {
+                "parentId": 20023100,
+                "name": "Face and Body Care",
+                "children": [],
+                "id": 20023017
+            }
+        ],
+        "id": 20023100
+    },
+    {
+        "parentId": null,
+        "name": "Pets",
+        "children": [
+            {
+                "parentId": 20023158,
+                "name": "Dogs",
+                "children": [],
+                "id": 20023156
+            },
+            {
+                "parentId": 20023158,
+                "name": "Cats",
+                "children": [],
+                "id": 20023127
+            }
+        ],
+        "id": 20023158
+    },
+    {
+        "parentId": null,
+        "name": "Science",
+        "children": [
+            {
+                "parentId": 20023169,
+                "name": "Weather",
+                "children": [],
+                "id": 20023131
+            }
+        ],
+        "id": 20023169
+    },
+    {
+        "parentId": null,
+        "name": "Careers",
+        "children": [],
+        "id": 20023203
+    }
+]
