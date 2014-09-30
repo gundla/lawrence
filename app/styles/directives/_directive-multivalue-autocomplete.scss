@@ -3,7 +3,7 @@ $width: 400px;
 	width: $width;
 	margin: 0 auto;
 	position: relative;
-	font-family: Arial;
+	font-family: "Helvetica Neue", Helvetica, "Arial Narrow", Arial;
 	.search-input-container {
 		border: solid 1px #ccc;
 	}
@@ -25,18 +25,55 @@ $width: 400px;
 		list-style: none;
 		margin: 0;
 		padding: 0;
+		font-size: 13px;
 		li {
-			padding: 5px 10px;
 			cursor: pointer;
+			> div {
+				padding: 5px 10px;
+			}
+			.item-style {
+				width: 16px;
+				height: 10px;
+				display: inline-block;
+				&.hasChildren {
+					background: url(/images/arrow_right.png) center no-repeat;
+				}
+				&.collapse {
+					background: url(/images/arrow_down.png) center no-repeat;
+				}
+			}
 			&:hover, &.hover {
-				background: #eee;
+				> div {
+					background: #eee;
+				}
 			}
 			.action {
 				float: right;
 				background: url(/images/plus_circle_static.png) center no-repeat;
-				background-size: 50%;
-				width: 32px;
-				height: 18px;
+				width: 16px;
+				height: 16px;
+			}
+			&.selected {
+				> div {
+					color: #aaa;
+					.action {
+						background-image: url(/images/minus_circle_static.png);
+					}
+				}
+			}
+		}
+		.matched-text {
+			font-weight: bold;
+		}
+	}
+	ul.children {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			padding: 5px 10px 5px 30px;
+			&:hover{
+				background: #eee;
 			}
 			&.selected {
 				color: #aaa;
@@ -44,9 +81,6 @@ $width: 400px;
 					background-image: url(/images/minus_circle_static.png);
 				}
 			}
-		}
-		.matched-text {
-			font-weight: bold;
 		}
 	}
 	.search-results-selected {

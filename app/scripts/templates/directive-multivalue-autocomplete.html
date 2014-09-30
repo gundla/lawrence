@@ -1,8 +1,16 @@
 <div class="my-components-multivalue-autocomplete">
 	<ul class="search-results-selected" ng-show="selectedResults.length > 0">
-		<li ng-repeat="result in selectedResults" ng-click="removeResult(result)">
-			{{result}}
-			<span class="action"></span>
+		<li ng-repeat="result in selectedResults">
+			<div ng-click="removeResult(result)">
+				{{result.name}}
+				<span class="action"></span>
+			</div>
+			<ul class="children">
+				<li ng-repeat="child in result.children | filter:isChildSelected" ng-click="removeChild(child, result)">
+					{{child.name}}
+					<span class="action"></span>
+				</li>
+			</ul>
 		</li>
 	</ul>
 	<div class="search-input-container">
@@ -10,9 +18,18 @@
 	</div>
 	<div class="search-results-container" ng-show="showResultsContainer">
 		<ul class="search-results" ng-show="results">
-			<li ng-repeat="result in results" ng-click="selectResult(result)" ng-class="{'hover': $index == navByKey, 'selected': result.selected === true}">
-				<span ng-bind-html="result.display"></span>
-				<span class="action"></span>
+			<li ng-repeat="result in results" ng-class="{'hover': $index == navByKey, 'selected': result.selected === true}">
+				<div ng-click="selectResult($event, result)">
+					<span class="item-style" ng-class="{'hasChildren': result.children.length > 0, 'collapse': result.expanded}" ng-click="toggleResult(result)"></span>
+					<span ng-bind-html="result.matchedText"></span>
+					<span class="action"></span>
+				</div>
+				<ul class="children" ng-show="result.expanded">
+					<li ng-repeat="child in result.children" ng-click="selectChild($event, child, result)" ng-class="{'selected': child.selected === true}">
+						{{child.name}}
+						<span class="action"></span>
+					</li>
+				</ul>
 			</li>
 		</ul>
 		<ul class="search-results none" ng-show="results.length <= 0">

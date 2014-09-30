@@ -1,5 +1,10 @@
 'use strict';
 
+var underscore = angular.module('underscore', []);
+underscore.factory('_', function() {
+  return window._;
+});
+
 /**
  * @ngdoc overview
  * @name lawrenceApp
@@ -17,7 +22,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'my.directive.autocomplete',
-    'my.directive.multivalue.autocomplete'
+    'my.directive.multivalue.autocomplete',
+    'underscore'
   ])
   .config(function ($routeProvider) {
     $routeProvider

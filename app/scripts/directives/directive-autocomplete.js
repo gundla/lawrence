@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module( 'my.directive.autocomplete', [] )
-  .directive( 'myComponentsAutocomplete', ['$filter', '$sce', function($filter, $sce) {
+  .directive( 'myComponentsAutocomplete', [function() {
     return {
       restrict: 'A',
       scope: {
