@@ -21,7 +21,7 @@
 			<li ng-repeat="result in results" ng-class="{'hover': $index == navByKey, 'selected': result.selected === true}">
 				<div ng-click="selectResult($event, result)">
 					<span class="item-style" ng-class="{'hasChildren': result.children.length > 0, 'collapse': result.expanded}" ng-click="toggleResult(result)"></span>
-					<span ng-bind-html="result.matchedText"></span>
+					<span ng-bind-html="result.matchedText"></span><span class="parent-name" ng-show="result.parentName">({{result.parentName}})</span>
 					<span class="action"></span>
 				</div>
 				<ul class="children" ng-show="result.expanded">

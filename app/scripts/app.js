@@ -31,6 +31,14 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/autocomplete', {
+        templateUrl: 'views/autocomplete.html',
+        controller: 'AutocompleteCtrl'
+      })
+      .when('/multivalue-autocomplete', {
+        templateUrl: 'views/mvAutocomplete.html',
+        controller: 'MVAutocompleteCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

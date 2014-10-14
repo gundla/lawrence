@@ -12,6 +12,31 @@ h2 {
 	color: #666;
 	margin: 10px 0;
 }
+section.links {
+	width: 300px;
+	margin: 40px auto;
+	a {
+		display: block;
+		padding: 30px 20px;
+		margin: 20px 0;
+		border-radius: 5px;
+		transition: background-color 0.3s;
+		background-color: #5cb8e6;
+		text-transform: uppercase;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		&.mv-autocomplete {
+			background-color: #9d73c7;
+			&:hover {
+				background-color: #9061c0;
+			}
+		}
+		&:hover {
+			background-color: #46aee3;
+		}
+	}
+}
 #myAutocomplete, #myMultivalueAutocomplete {
 	margin: 20px auto 120px;
 	width: 400px;

@@ -10,38 +10,57 @@ angular.module( 'my.directive.multivalue.autocomplete', [] )
       },
       templateUrl: 'scripts/templates/directive-multivalue-autocomplete.html',
       controller: ['$scope', '$http', function($scope, $http) {
+        // get data
         $http.get('/data/showcase.json')
           .success(function(data){
-            console.log('data', data);
-
             // store the json data
             $scope.allData = data;
-            
-            // create parent data
-            var parentData = _.map(data, function(d){
-              return {id: d.id, name: d.name};
-            });
-            $scope.parentData = parentData;
-            console.log('parentData', parentData);
+
+            // child data
+            var allChildren = _.pluck(data, 'children');
+            $scope.allChildren = _.flatten(allChildren);
 
           }).error(function(){
             console.log('error loading data');
-          });
+        });
 
         $scope.getMatchedItems = function(match){
           var matchedItems = [],
               allData = $scope.allData,
+              allChildren = $scope.allChildren,
               matchRegex = new RegExp(match, 'gi');
 
+          // search top level    
           _.each(allData, function(data){
             if(data.name.search(matchRegex) >= 0){
               var mData = _.clone(data);
+              mData.level = 0;
               mData.matchedText = data.name.replace(matchRegex, '<span class="matched-text">$&</span>');
               matchedItems.push(mData);
             }
           });
+
+          // search children
+          _.each(allChildren, function(child){
+            if(child.name.search(matchRegex) >= 0){
+              var mData = _.clone(child);
+              mData.level = 1;
+              mData.matchedText = child.name.replace(matchRegex, '<span class="matched-text">$&</span>');
+              mData.parentName = getParentName(child);
+              matchedItems.push(mData);
+            }
+          });
+
           return matchedItems;
         };
+
+        function getParentName(child){
+          var allData = $scope.allData,
+              parent = _.find(allData, function(d){
+                return d.id === child.parentId;
+              });
+          return parent.name;
+        }
 
       }],
       link: function(scope){
